@@ -1,0 +1,298 @@
+/* 헤더네비게이션*/
+
+body{
+  margin: 0px;
+  text-decoration: none;
+  background-color: #121212;
+
+}
+div{
+  display: block;
+}
+.layout{
+  display: block;
+  width: 100%;
+  height: 52px;
+  background-color: red;
+}
+.header-all{
+  .layout{
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-color: red;
+  }
+}
+.layout-all{
+  display: block;
+  width:100%;
+  height:100%;
+}
+.header{
+  display: block;
+  display: table;
+  width: 100%;
+  height: 52px;
+  background-color: #2a2a2a;
+  position: fixed;
+}
+.header img{
+  width:28px;
+}
+.header_logo{
+  padding-top: 8px;
+  display: table-cell;
+  width:32px;
+  font-weight: normal;
+  color: white;
+  vertical-align: middle;
+  text-decoration: none;
+  margin: 0px;
+  padding-left: 32px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.header_navigation a{
+  border-bottom: 1px solid blue;
+}
+
+.header_navigation ul{
+  font-size: 13px;
+  color: #e7e7e7;
+  list-style: none;
+  margin: 0px;
+}
+.header_navigation li{
+  float: left;
+  padding-right: 32px;
+  margin: 0px;
+}
+.header_navigation{
+  width: 1600px;
+  display: table-cell;
+  font-size: 14px;
+  font-weight: normal;
+  vertical-align: middle;
+  color:white;
+}
+.header_tail{
+  float: right;
+  width: 500px;
+  display: table-cell;
+  padding: 0px;
+}
+.download{
+  float: right;
+  display: inline;
+  width: 120px;
+  height: 52px;
+  background-color: #007dfc;
+  text-align: center;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 52px;
+  padding: 0px 4px;
+}
+.login{
+  float: right;
+  display: inline;
+  width: 120px;
+  height: 52px;
+  background-color: #007dfc;
+  text-align: center;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 52px;
+  padding: 0px 4px;
+}
+.header_tail img{
+  float: right;
+  width:24px;
+  height:24px;
+  padding: 11px 24px;
+    vertical-align: middle;
+}
+
+/* 바디 레이아웃*/
+.layout-navigation{
+  display: block;
+  height: auto;
+  background-color: #121212;
+  padding: 0px 240px;
+}
+.layout-navigation-section{
+  background-color: #121212;
+  width: 100%;
+  color: #ffffff;
+  height: 100px;
+  margin: 0px;
+}
+
+.layout-navigation-section li{
+  margin-bottom: 0px;
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  margin-right: 24px;
+  line-height: 100px;
+}
+.layout-navigation-section-search input{
+  display: block;
+  width: 172px;
+  float: right;
+  height: 42px;
+  background-color: #252525;
+  outline-color: transparent;
+  outline-style: none;
+  margin-top:29px;
+  color:#ffffff;
+  padding: 0px 40px;
+  border-radius: 1px;
+  border:0px solid #252525;
+  background-image: url('resource/ic-search.png');
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: 20px;
+}
+
+.discover{
+  color:#ffffff;
+}
+.li-search{
+  color:#ffffff; opacity: 0.5;
+}
+.layout-contents{
+  display: block;
+  padding: 0px 240px;
+}
+.layout-contetns_banner-area{
+  display: block;
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+  margin-bottom: 50px;
+}
+.left-banner{
+  display: inline;
+  width: 60%; float: left;
+  height: 100%;
+  background-color: red;
+  margin-bottom: 0px;
+}
+.left-banner img{
+  width: 100%;
+  height: 100%;
+}
+
+.right-banner{
+  display: inline;
+  width: 40%; float: right;
+  height: 100%;
+  background-color: #202020;
+  margin-bottom: 0px;
+}
+.right-banner_paging{
+  display: block;
+  width: 70%; float: left;
+  height: 80px;
+}
+.right-banner_subtitle{
+  padding-left: 40px;
+  width: 70%; float: left;
+  font-size: 12px;
+  margin-top: 12px;
+  margin: 0px;
+  color: #ffffff; opacity: 0.5;
+}
+.right-banner_title{
+  padding-left: 40px;
+  width: 70%; float: left;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 30px;
+  color: white;
+}
+.right-banner_bodytext{
+  padding-left: 40px;
+  width: 70%; float: left;
+  height: 256px;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 14px;
+  color: #ffffff; opacity: 0.5;
+}
+.right-banner_tail{
+  padding-left: 40px;
+  width: 70%; float: left;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 16px;
+  color: white;
+  position: relative;
+}
+.detail-mg{
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.detail-img img {
+  width: 16px;
+  height: 16px;
+}
+.new-game-list{
+  display: block;
+  height: auto;
+}
+.layout-img-title h2{
+  font-size: 18px;
+  font-weight:normal;
+  color:#ffffff;
+}
+.card-modules{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  gap: 0px 16px;
+  width: 100%;
+  height: auto;
+  background-color: #121212;
+  margin-bottom: 32px;
+  overflow: hidden;
+}
+.card-modules img{
+  width: 100%;
+}
+.card-1{
+    margin-right:8px;
+}
+.card-2{
+    margin-right:8px;
+}
+.card-3{
+    margin-right:8px;
+    float:right;
+}
+.card-title{
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+}
+.card-body{
+  margin-top: 4px;
+  color: #ffffff; opacity: 0.5;
+  font-size: 14px;
+  width: 100%;
+}
+.card-price{
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+}
+.free-game-list{
+  width: 100%;
+  height: 200px;
+  background-color: blue;
+  margin-bottom: 32px;
+}
